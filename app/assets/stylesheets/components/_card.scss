@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+}
+
+.card {
+  margin: 8px;
+  width: 400px;
+  height: 200px;
+  background: url(https://source.unsplash.com/random);
+  background-size: cover;
+
+  &:hover {
+  background: url(https://source.unsplash.com/random);
+  opacity: 0.1;
+  text-decoration: none;
+  color: red;
+  } 
+}
+
+.card a {
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
