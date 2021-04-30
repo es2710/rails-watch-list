@@ -1,0 +1,16 @@
+// Place all the styles related to the movies controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+// .show-list-card {
+//   display: flex;
+//   justify-content: space-between;
+// }
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 25px;
+}
