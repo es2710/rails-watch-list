@@ -29,4 +29,6 @@ private
   def bookmark_params
     params.require(:bookmark).permit(:comment, :movie_id)
   end
+
+
 end

@@ -19,14 +19,13 @@ class ListsController < ApplicationController
     else
       render :new
     end
+    raise
   end
-
-  
 
   private
 
   def list_params
-    params.require(:list).permit(:name)
+    params.require(:list).permit(:name, :photo)
   end
 
   # def find_list

@@ -2,12 +2,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 300px;
   color: white;
-  background: url(https://source.unsplash.com/daily);
-  background-size: cover;
   font-weight: bold;
   font-size: 24px;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
    
+}
+
+.index-banner {
+  background-image: asset-url('movie.jpeg');
+  background-size: cover;
 }
 

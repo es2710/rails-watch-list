@@ -2,13 +2,14 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-h2 {
-  margin: 7px;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 25px;
 }
 
-.lists {
-  display: flex;
-  margin: 0px;
+h2 {
+  margin: 7px;
 }
 
 .list-card {
@@ -18,18 +19,16 @@ h2 {
   margin: 8px;
   width: 400px;
   height: 200px;
-  background: url(https://source.unsplash.com/random);
-  background-size: cover;
   border: 1px solid black;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
 
   &:hover {
-  background: url(https://source.unsplash.com/random);
   opacity: 0.1;
   color: black;
   }
 }
-
-
 
 .list-card a {
   color: white;

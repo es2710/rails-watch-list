@@ -1,15 +1,22 @@
 
 img {
   height: 300px;
-  width: 150px;
 }
 
 .card {
   width: 400px;
-  height: 500px;
   margin: 10px;
+  padding: 10px;
+}
+
+.card p {
+  font-size: 14px
 }
 
 .card-title-div {
   display: flex;
+}
+
+.card-title {
+  font-weight: bold;
 }
