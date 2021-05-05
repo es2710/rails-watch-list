@@ -5,24 +5,17 @@
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 25px;
-}
-
-h2 {
-  margin: 7px;
+  grid-column-gap: 5px;
+  margin: 10px;
 }
 
 .list-card {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 8px;
-  width: 400px;
-  height: 200px;
-  border: 1px solid black;
   background-size: cover;
   background-position: center;
-  height: 400px;
+  height: 200px;
 
   &:hover {
   opacity: 0.1;

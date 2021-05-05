@@ -1,19 +1,31 @@
 .banner {
   display: flex;
-  align-items: center;
+  width: 100%;
+  height: 200px;
+  flex-direction: column;
   justify-content: center;
-  height: 300px;
-  color: white;
-  font-weight: bold;
-  font-size: 24px;
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-   
+  align-items: center;
+  margin-bottom: 32px;
+  
 }
+
+.banner p {
+    color: white;
+    padding: 10px;
+  }
 
 .index-banner {
   background-image: asset-url('movie.jpeg');
+  width: 100%;
   background-size: cover;
+  background-position: center;
+  height: 400px;
 }
 
+.banner-btn {
+  position: absolute;
+  top: 0px;
+  font-size: 18px;
+  background-color: #EAEDED;
+  width: 100%;
+}
