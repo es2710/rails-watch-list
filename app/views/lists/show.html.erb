@@ -1,6 +1,7 @@
  <div class="header">
   <%=link_to "Add a movie", new_list_bookmark_path(@list), class: "btn btn-primary"%>
   <%=link_to "Back",  lists_path, class: "btn btn-secondary"%>
+  <%= link_to "Delete", list_path(@list), method: :delete, class: "btn btn-danger align-self-end " %>
 </div>
 <div class="banner">
   <div class="index-banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('<%= cl_image_path @list.photo.key if @list.photo.attached?%>')">
